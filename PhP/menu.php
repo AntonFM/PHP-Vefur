@@ -5,5 +5,6 @@
  echo 'id="here"'; } ?>>Heimasíða</a></li>
   <li><a href="kaupa.php"  <?php if ($currentPage == 'kaupa.php') {
  echo 'id="here"'; } ?>>Kaupa</a></li>
-  <li><a href="#">Selja</a></li>
+  <li><a href="selja.php"	<?php if ($currentPage == 'selja.php') {
+ echo 'id="here"'; } ?>>Selja</a></li>
 </ul>
